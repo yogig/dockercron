@@ -1,0 +1,16 @@
+version: "3"
+services:
+  php:
+    build:
+      context: .
+      dockerfile: docker-compose.php.dockerfile
+    volumes:
+      - ./:/var/www
+      - ./docker-compose.httpd.conf:/etc/apache2/httpd.conf
+    working_dir: /var/www
+    environment:
+      #YOU ARE SUPPOSED TO BE ABLE TO USE host.docker.internal FOR remote_host BUT IF IT
+      #DOES NOT WORK, USE YOUR IP FROM ipconfig
+      XDEBUG_CONFIG: "remote_host=192.168.11.85 remote_enable=0 remote_autostart=0 remote_connect_back=0 profiler_enable=0 profiler_output_dir=/var/www/profiling"
+    ports:
+      - 8080:8080
