@@ -33,5 +33,3 @@ COPY crontab.txt /etc/crontabs/root
 #https://github.com/docker-library/php/blob/master/7.2/alpine3.10/fpm/Dockerfile
 CMD ["/bin/sh", "-c", "rm -f /usr/local/apache2/logs/httpd.pid && httpd -DBACKGROUND && php-fpm"]
 
-# start crond with log level 8 in foreground, output to stderr
-CMD ["crond", "-f", "-d", "8"]
