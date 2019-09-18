@@ -32,7 +32,4 @@ COPY crontab.txt /etc/crontabs/root
 #https://github.com/docker-library/httpd/blob/3ebff8dadf1e38dbe694ea0b8f379f6b8bcd993e/2.4/alpine/httpd-foreground
 #https://github.com/docker-library/php/blob/master/7.2/alpine3.10/fpm/Dockerfile
 CMD ["/bin/sh", "-c", "rm -f /usr/local/apache2/logs/httpd.pid && httpd -DBACKGROUND && php-fpm"]
-<<<<<<< HEAD
 
-=======
->>>>>>> 21cb8fcdc0547914beaf9cdc82e34b6fb04804b2
