@@ -1,6 +1,12 @@
 #################### Lufthansa White-ID-Card #################### | dos2unix
 MAILTO="team_x@milchundzucker.de" | dos2unix
+<<<<<<< HEAD
 *      *  * * *  /usr/local/bin/php /var/www/a.php > /var/www/c1.log | dos2unix
+=======
+*      *  * * *  /usr/local/bin/php /var/www/a.php > /var/www/m1.log | dos2unix
+*      *  * * *  /usr/local/bin/php /var/www/b.php > /var/www/m2.log | dos2unix
+*      *  * * *  /usr/local/bin/php /var/www/c.php > /var/www/m3.log | dos2unix
+>>>>>>> 21cb8fcdc0547914beaf9cdc82e34b6fb04804b2
 
 #*      *  * * *  /usr/local/bin/php /var/www/b.php > /var/www/c2.log | dos2unix
 
