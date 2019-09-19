@@ -1,5 +1,5 @@
-#################### Lufthansa White-ID-Card #################### | dos2unix
-MAILTO="team_x@milchundzucker.de" | dos2unix
+#################### xxx WIDC #################### | dos2unix
+MAILTO="xxx@xxx.de" | dos2unix
 
 *      *  * * *  /usr/local/bin/php /var/www/a.php > /var/www/c1.log | dos2unix
 
