@@ -1,8 +1,8 @@
 FROM php:7.2-fpm-alpine
 
-LABEL maintainer="info@milchundzucker.de" \
-      muz.customer="lufthansa" \
-      muz.product="widc" \
+LABEL maintainer="xxx@xxx.de" \
+      muz.customer="xxx" \
+      muz.product="xxx" \
       container.mode="development"
 
 #https://pkgs.alpinelinux.org/packages
